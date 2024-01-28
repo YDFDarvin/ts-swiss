@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "propertyNames": {
+      "title": "TS's key",
+      "enum": ["a1"]
+    },
+    "required": {
+      "required": ["a1"]
+    },
+    "properties": {
+      "properties": {
+        "a1": {
+          "title": "String",
+          "type": "string"
+        }    
+      }
+    }
+  },
+  "type": "object",
+  "allOf": [    
+    {"propertyNames": {"$ref": "#/definitions/propertyNames"}},
+    {"$ref": "#/definitions/required"},
+    {"$ref": "#/definitions/properties"}
+  ]
+}

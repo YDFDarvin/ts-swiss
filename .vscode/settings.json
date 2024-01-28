@@ -1,0 +1,36 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "jest.config.json"
+      ],
+      "url": "https://askirmas.github.io/jest.schema.json"
+    },
+    {
+      "fileMatch": [
+        "*.schema.json",
+        "schema.json"
+      ],
+      "url": "http://json-schema.org/draft-07/schema"
+    },
+    {
+      "fileMatch": [
+        "*.tn.json"
+      ],
+      "url": "./tn.schema.json"
+    },
+    {
+      "fileMatch": [
+        "*.ts.json"
+      ],
+      "url": "./ts.schema.json"
+    },
+    {
+      "fileMatch": [
+        "*.ts_tn.json"
+      ],
+      "url": "./ts_tn.schema.json"
+    }
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

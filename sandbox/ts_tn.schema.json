@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "title": "Union",
+  "allOf": [
+    {
+      "propertyNames": {
+        "anyOf": [
+          {"$ref": "ts.schema.json#/definitions/propertyNames"},
+          {"$ref": "tn.schema.json#/definitions/propertyNames"}
+        ]
+      }
+    },
+    {"$ref": "ts.schema.json/#/definitions/properties"},
+    {"$ref": "ts.schema.json/#/definitions/required"},
+    {"$ref": "tn.schema.json#/definitions/properties"},
+    {"$ref": "tn.schema.json#/definitions/required"}
+  ]
+}

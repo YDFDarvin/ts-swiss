@@ -9,7 +9,7 @@
     "test/t:dev": "tsc --watch",
     "jest": "jest"
   },
-  "author": "Serhii Andrukh <kirmas@phystech.edu>",
+  "author": "Serhii Andrukh <mexahik1990@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.22",
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/askirmas/ts-swiss.git"
+    "url": "git+ssh://git@github.com:YDFDarvin/ts-swiss.git"
   },
   "bugs": {
-    "url": "https://github.com/askirmas/ts-swiss/issues"
+    "url": "https://github.com/YDFDarvin/ts-swiss/issues"
   },
-  "homepage": "https://github.com/askirmas/ts-swiss#readme",
+  "homepage": "https://github.com/YDFDarvin/ts-swiss/blob/master/README.md",
   "dependencies": {},
   "publishConfig": {
     "access": "public"
